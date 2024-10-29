@@ -1,0 +1,163 @@
+.bespoke-settings-admin,
+.bespoke-settings-admin p,
+.bespoke-settings-admin span,
+.bespoke-settings-admin h1,
+.bespoke-settings-admin h2,
+.bespoke-settings-admin h3 {
+    font-family: 'Open Sans', helvetica, arial, sans-serif;
+}
+.pc-txt-bigtitle {font-size: 48px;}
+.pc-txt-bigsubtitle {font-size: 38px;}
+.pc-center {text-align: center; margin: 0 auto;}
+.pc-txt-white {color:#fff;}
+.pc-H120 {min-height: 120px;}
+.pc-fillheight{height: fill; height: -webkit-fill-available;}
+.pc-clean-link{text-decoration: none;}
+.pc-margin0 {margin:0 auto;}
+.pc-paddingV20 {padding-top: 20px; padding-bottom: 20px;}
+.pc-padding5 {padding: 5px;}
+.pc-bold {font-weight: bold;}
+.pc-maxwidth480{max-width: 480px;}
+.pc-alignleft{text-align: left;}
+.pc-paddingV50 {padding-top: 50px; padding-bottom: 50px;}
+.pc-gradient1 {
+    color:#fff;
+    background: -moz-linear-gradient(to right, #C6426E, #642B73);
+    background: -webkit-linear-gradient(to right, #C6426E, #642B73);
+    background: linear-gradient(to right, #C6426E, #642B73);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+}
+.bespoke-settings-admin .button-primary,
+.bespoke-settings-admin .button-primary:hover,
+.bespoke-settings-admin .button-primary:focus,
+.bespoke-settings-admin .button-primary:active
+ {
+    color:#fff;
+    border:transparent;
+    line-height: 35px;
+    height: 50px;
+    padding-left:25px;
+    padding-right:25px;
+    box-shadow: none;
+    text-shadow: none;
+    background: #f09433;
+    background: -moz-linear-gradient(to right, #C6426E, #642B73);
+    background: -webkit-linear-gradient(to right, #C6426E, #642B73);
+    background: linear-gradient(to right, #C6426E, #642B73);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.bespoke-settings-admin .button-primary:hover {
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,.18), 0 4px 15px 0 rgba(0,0,0,.15);
+    /* border:3px solid #dc2743; */
+    /* background: transparent; */
+    /* color:#dc2743; */
+}
+
+.bespoke-submit-btn svg.bespoke-icon {
+    margin-right: 3px;
+    font-size: 16px;
+    transform: rotate(45deg);
+    vertical-align: middle;
+}
+
+.button-primary.bespoke-submit-btn {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    box-shadow: 0 1px 0 #494c94;
+    background: #6d72df;
+    border-color: #494c94;
+    text-shadow: 0 -1px 1px #494c94, 1px 0 1px #494c94, 0 1px 1px #494c94, -1px 0 1px #494c94;
+}
+
+.button-primary.bespoke-submit-btn:hover,
+.button-primary.bespoke-submit-btn:focus {
+    background: #777cde;
+    border-color: #494c94;
+}
+
+.button-primary.bespoke-submit-btn:active {
+    box-shadow: inset 0 2px 0 #494c94;
+    border-color: #494c94;
+    background: #4f56d8;
+}
+
+.pc-gradient1.btn-features {
+    margin: 0 auto;
+    display: inline-block;
+    text-align: center;
+    font-size: 30px;
+    width: 65px;
+    height: 65px;
+    padding: 0px;
+    line-height: 65px;
+    border-radius: 65px;
+}
+.pc-icon_bespoke {
+    border: 1px solid #9e9a9a;
+    border-radius: 3px;
+    padding: 2px;
+}
+
+.bespoke-settings-admin p.submit {
+    text-align: center;
+}
+
+.bespoke-settings-admin.nowrap {
+    margin-left: -20px;
+}
+
+.bespoke-submit-container {
+    text-align: right;
+    margin-bottom: 5px;
+}
+
+/* Edit page/post */
+#poststuff .close_to_the_edge .inside {
+    margin:0;
+    padding:0;
+}
+
+@media screen and (max-width: 782px) {
+    .bespoke-settings-admin.nowrap {
+        margin-left: -10px;
+    }
+}
+
+p.howto {
+    font-size: 13px;
+    color: #666;
+    margin: 3px 0;
+}
+
+.misc-pub-section .bespoke-icon {
+    color: #82878c;
+    transform: rotate(45deg);
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.options {
+    float: right !important;
+}
+
+.options .options-label {
+    font-size: 11px;
+    text-decoration: underline;
+}
+
+.options .options-item-label {
+    font-size: 8px;
+    text-align: right;
+    font-style: monospace;
+    font-weight: 600;
+}
+
+.options .options-item-description {
+    font-size: 8px;
+}
+
+
